@@ -13,11 +13,26 @@
   font-size: 20px;
   border: 0;
   color: #fff;
-  width: 150px;
+  width: 175px;
   height: 64px;
   background: #fd6e0a;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 30px;
+}
+
+.btn-second {
+  font-weight: 700;
+  font-size: 20px;
+
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  width: 175px;
+  height: 64px;
+  background-color: #fff8f3;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 30px;
 }
 
 section {
@@ -31,6 +46,7 @@ section {
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  padding-top: 50px;
 }
 .logo {
   font-weight: 800;
@@ -62,7 +78,7 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 75px 0 221px;
+  margin: 30px 75px 0 221px;
 }
 
 .banner-title {
@@ -98,7 +114,7 @@ nav li {
 }
 
 .about-me {
-  background: #fff8f3;
+  background: #fff2e9;
   border-radius: 10px;
   padding: 130px 150px;
 }
@@ -126,7 +142,7 @@ nav li {
 table,
 th,
 td {
-  margin: 25px auto;
+  margin: 50px auto;
 
   border-collapse: collapse;
   padding: 0 15px 5px;
@@ -221,7 +237,7 @@ hr {
 .contact {
   display: flex;
   gap: 100px;
-  background: #fff8f3;
+  background: #fff2e9;
   padding: 130px 200px;
 }
 
