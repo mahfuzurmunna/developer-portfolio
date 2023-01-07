@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #181818;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  color: #fff;
+  width: 150px;
+  height: 64px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Header and navigation styles */
+
+.header {
+  background-color: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+.logo {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 68px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* banner starts */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 75px 0 221px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 116px;
+  color: #181818;
+  margin: 0 auto 20px;
+}
+
+.banner-sub-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 61px;
+  /* Dark 02 */
+  color: #474747;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 40px;
+}
+
+/* about me section */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about-me {
+  margin: 130px auto;
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  font-size: 35px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Dark 01 */
+
+  color: #181818;
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #757575;
+}
+
+table,
+th,
+td {
+  margin: 25px auto;
+
+  border-collapse: collapse;
+  padding: 0 15px 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800px;
+}
